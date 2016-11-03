@@ -1,0 +1,93 @@
+
+		* {
+			box-sizing: border-box;
+			font-family: Helvetica;
+			margin: 0px;
+			padding: 0px;
+		}
+		
+		h1 {
+			text-align: center;
+			margin: 15px;
+		}
+		
+		p {
+			color: black;
+		}
+		
+	.box {
+	  padding: 20px;
+      width: 100%;
+		}
+
+    .menu-item {
+	  position: relative;
+      background-color: lightgrey;
+      margin: 20px;
+      padding: 0px;
+	  border: 1px solid black;
+    }
+
+    .t {
+      font-size: 120%;
+  	  font-style: bold;
+  	  right: 0;
+      padding: 5px;
+      border: 1px solid black;
+      position: absolute;
+      text-align: right;
+      background-color: green;
+    }
+
+		.t1 {
+			color: white;
+		}
+		
+		.t2 {
+			color: black;
+			background-color: white;
+		}
+		
+		.t3 {
+			color: white;
+			background-color: red;
+		}
+		
+    .content {
+      padding: 50px 20px 20px 20px;
+      text-align: justify;
+    }
+
+    
+		.center {
+			text-align: center;
+		}
+
+		@media (min-width: 992px) {
+			.d1 {
+				width: 33%;
+				float: left;
+			}
+			.d2 {
+				width: 33%;
+				float: left;
+			}
+			.d3 {
+				width: 33%;
+				float: left;
+			}
+		}
+		
+		@media (min-width: 768px) and (max-width: 991px) {
+			.d1 {
+				width: 50%;
+				float: left;
+			}
+			.d2 {
+				width: 50%;
+				float: left;
+			}
+			.d3 {
+				width: 100%;
+				float: left;
+		}
